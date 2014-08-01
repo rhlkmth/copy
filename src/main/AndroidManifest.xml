@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.gmail.naetmul.copytoclipboard"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk android:minSdkVersion="16"
+              android:targetSdkVersion="19"/>
+
+    <application android:label="@string/app_name"
+                 android:icon="@drawable/ic_launcher">
+
+        <!-- Use Theme.NoDisplay and call finish() in onCreate() to get rid of UI. -->
+        <activity android:name=".ReceiverActivity"
+                  android:label="@string/activity_name"
+                  android:excludeFromRecents="true"
+                  android:theme="@android:style/Theme.NoDisplay">
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.ALTERNATIVE"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.SELECTED_ALTERNATIVE"/>
+                <data android:mimeType="text/*"/>
+            </intent-filter>
+
+        </activity>
+    </application>
+</manifest>

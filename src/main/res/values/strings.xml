@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">Copy to Clipboard</string>
+    <string name="activity_name">Copy (Clipboard)</string>
+
+    <string name="copy_succeeded_plain_text">The text was copied to the clipboard.</string>
+    <string name="copy_succeeded_html_text">The HTML text was copied to the clipboard.</string>
+    <string name="copy_succeeded_uri">The data was copied to the clipboard.</string>
+    <string name="copy_succeeded_intent">The shortcut was copied to the clipboard.</string>
+
+    <string name="copy_failed">Copying failed. Unknown format.</string>
+</resources>
