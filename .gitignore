@@ -4,3 +4,4 @@ bin/
 local.properties
 .idea/
 .idea_modules/
+external/
