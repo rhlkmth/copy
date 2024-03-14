@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-
 <resources>
     <string name="app_name">클립보드에 복사</string>
     <string name="activity_name">복사 (클립보드)</string>
