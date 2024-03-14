@@ -8,6 +8,7 @@ import android.widget.Toast
 
 /**
  * Created by Haneul on 2014-08-01.
+ * Updated for Android 14 on 2023-03-14.
  */
 class ReceiverActivity extends Activity {
   override protected def onCreate(savedInstanceState: Bundle): Unit = {
